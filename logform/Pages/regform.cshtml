@@ -1,0 +1,19 @@
+﻿@page
+@model logform.Pages.regformModel
+@{
+}
+
+
+
+<form method="post">
+    <input placeholder="Name" name="Name" required />
+    <input placeholder="Surname" name="Surname" required />
+    <input placeholder="Email" type="email" name="Email" required />
+    <input placeholder="Password 1" type="password" name="Password1" required />
+    <input placeholder="Password 2" type="password" name="Password2" required />
+    <button type="submit">Enter</button>
+</form>
+
+<div>
+    <a asp-page="/logform">Sign In</a>
+</div>
